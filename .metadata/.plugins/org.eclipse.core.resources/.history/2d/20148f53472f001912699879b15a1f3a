@@ -1,0 +1,23 @@
+package jvlabexp1;
+public class parent{
+	int parent_id=001;
+	void display() {
+		System.out.println("parent id is"+parent_id);
+	}
+}
+public class child extends parent{
+	int child_id=002;
+	void show() {
+		System.out.println("child id is"+child_id);
+	}
+}
+public class main {
+
+	public static void main(String[] args) {
+		child ob = new child();
+		ob.display();
+		ob.show();
+
+	}
+
+}
